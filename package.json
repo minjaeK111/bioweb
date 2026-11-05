@@ -1,0 +1,26 @@
+{
+  "name": "bioweb",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "통합과학 → 생명과학Ⅰ로 확장해 공부하는 생명과학 학습 웹 (Vite + React + gyeol)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gyeol": "^0.1.9",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+dist/
+tsconfig.tsbuildinfo
+.impeccable/
+.DS_Store
+Thumbs.db
